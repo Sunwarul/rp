@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunwarul\RP\Console\Commands;
+namespace NuxtIt\RP\Console\Commands;
 
 use Illuminate\Console\Command;
 use Spatie\Permission\Models\Role;

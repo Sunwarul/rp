@@ -1,13 +1,13 @@
 {
     "version": "1.0.0",
-    "name": "sunwarul/rp",
+    "name": "nuxtit/rp",
     "description": "Role and Permissions Management Package for Laravel Including UI",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "sunwarul",
-            "email": "sunwarul.dev@gmail.com"
+            "name": "nuxtit",
+            "email": "nuxtit.dev@gmail.com"
         }
     ],
     "require": {
@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Sunwarul\\RP\\": "src/"
+            "NuxtIt\\RP\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sunwarul\\RP\\Providers\\RPServiceProvider"
+                "NuxtIt\\RP\\Providers\\RPServiceProvider"
             ]
         }
     },

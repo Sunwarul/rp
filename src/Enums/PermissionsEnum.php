@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunwarul\RP\Enums;
+namespace NuxtIt\RP\Enums;
 
 
 enum PermissionsEnum: string

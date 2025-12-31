@@ -1,11 +1,11 @@
 <?php
 
-namespace Sunwarul\RP\Http\Controllers;
+namespace NuxtIt\RP\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Sunwarul\RP\Http\Requests\StoreRoleRequest;
-use Sunwarul\RP\Http\Requests\UpdateRoleRequest;
+use NuxtIt\RP\Http\Requests\StoreRoleRequest;
+use NuxtIt\RP\Http\Requests\UpdateRoleRequest;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 

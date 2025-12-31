@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunwarul\RP\Http\Requests;
+namespace NuxtIt\RP\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;

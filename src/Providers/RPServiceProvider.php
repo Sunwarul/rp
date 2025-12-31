@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunwarul\RP\Providers;
+namespace NuxtIt\RP\Providers;
 
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
@@ -40,7 +40,7 @@ class RPServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                \Sunwarul\RP\Console\Commands\SyncPermissionsCommand::class,
+                \NuxtIt\RP\Console\Commands\SyncPermissionsCommand::class,
             ]);
         }
     }

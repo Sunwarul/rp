@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunwarul\RP\Http\Controllers;
+namespace NuxtIt\RP\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Sunwarul\RP\Http\Controllers;
+namespace NuxtIt\RP\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Hash;
-use Sunwarul\RP\Http\Requests\StoreUserRequest;
-use Sunwarul\RP\Http\Requests\UpdateUserRequest;
+use NuxtIt\RP\Http\Requests\StoreUserRequest;
+use NuxtIt\RP\Http\Requests\UpdateUserRequest;
 use Spatie\Permission\Models\Role;
 
 class UserController extends Controller

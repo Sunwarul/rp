@@ -26,7 +26,7 @@ A comprehensive Laravel package for managing users, roles, and permissions using
     }
   ],
   "require": {
-    "sunwarul/rp": "*"
+    "nuxtit/rp": "*"
   }
 }
 ```
@@ -34,7 +34,7 @@ A comprehensive Laravel package for managing users, roles, and permissions using
 2. Install the package:
 
 ```bash
-composer require sunwarul/rp:@dev
+composer require nuxtit/rp:@dev
 ```
 
 3. The package will be auto-discovered by Laravel.

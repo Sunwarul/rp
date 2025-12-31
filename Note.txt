@@ -1,0 +1,4 @@
+# Feature Request
+
+
+- When run 'rp:sync' command, un-used permissions (and their FK should be adjusted automatically)

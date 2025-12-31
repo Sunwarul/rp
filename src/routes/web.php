@@ -1,10 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Sunwarul\RP\Http\Controllers\SettingsController;
-use Sunwarul\RP\Http\Controllers\UserController;
-use Sunwarul\RP\Http\Controllers\RoleController;
-use Sunwarul\RP\Http\Controllers\PermissionController;
+use NuxtIt\RP\Http\Controllers\SettingsController;
+use NuxtIt\RP\Http\Controllers\UserController;
+use NuxtIt\RP\Http\Controllers\RoleController;
+use NuxtIt\RP\Http\Controllers\PermissionController;
 
 Route::middleware(['role:admin|superadmin|super-admin'])->group(function () {
     // Settings

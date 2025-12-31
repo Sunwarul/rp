@@ -1,11 +1,11 @@
 <?php
 
-namespace Sunwarul\RP\Http\Controllers;
+namespace NuxtIt\RP\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Sunwarul\RP\Http\Requests\StorePermissionRequest;
-use Sunwarul\RP\Http\Requests\UpdatePermissionRequest;
+use NuxtIt\RP\Http\Requests\StorePermissionRequest;
+use NuxtIt\RP\Http\Requests\UpdatePermissionRequest;
 use Spatie\Permission\Models\Permission;
 
 class PermissionController extends Controller
